@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+/* Titre principal */
+h1 {
+	font-family: "Staatliches", cursive;
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	text-align: center;
+	text-shadow: 1px 1px 2px;
+}
+
+/* Sous-titre */
+.birthday {
+	font-family: "Staatliches", cursive;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+	text-shadow: 1px 1px 2px;
+	color: #c62e1d;
+	margin-top: -25px;
+	margin-bottom: 3%;
+}
+
+/* Légende */
+ul {
+	font-family: "Staatliches", cursive;
+	font-size: 23px;
+	list-style-type: square;
+	list-style-position: inside;
+	padding-bottom: 5%;
+	text-shadow: 1px 1px 2px;
+}
+
+li {
+	float: left;
+	margin-bottom: 2%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+/* Couleur et police du symbole de l'élément */
+.symbole {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+/* Définition de la classe commune au numero-atomique , electronegativite , nombre-masse */
+.informations {
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+/* Position du numéro atomique */
+.numero-atomique {
+	top: -7px;
+	left: 5px;
+}
+
+/* Position de l'électronégativité */
+.electronegativite {
+	top: -7px;
+	right: 5px;
+}
+
+/* Position du nombre de masse */
+.nombre-masse {
+	bottom: -7px;
+	right: 5px;
+}
+
+/* Définition de la hauteur du tableau */
+.tableau {
+	position: relative;
+ 	height: 190px;
+ 	left: 4.5%;
+}
+
+/* Définition d'une ligne du tableau */
+.periode {
+	margin-left: 2%;
+	margin-top: 50px;
+	margin-right: 2%;
+	height: 15%;
+}
+
+/* Permet l'éloignement des Actninides + Lanthanides du tableau */
+#separation {
+	margin-top: 70px;
+}
+
+/* Définition d'un case vide, ses dimensions, son positionnement */
+.case {
+	position: relative;
+	float: left; /* les cases s'empillent sur la gauche */
+	height: 100%;
+	width: 5%;
+}
+
+/* Définition de ce qui est dans la case (bordure) */
+.element {
+	position: relative;
+	margin-right: 5%;
+	box-sizing: border-box;
+	box-shadow: 1px 1px 3px; 
+	border: 1px solid #0000; /* bordure invisible pour donner la forme */
+	text-align: center;
+}
+
+/* Définition de la couleur de fond de chaque groupes */
+.autre-non-metal {
+	background-color: #7ea16b;
+}
+.autre-non-metal-li {
+	color: #7ea16b;
+}
+
+.metal-alcalin {
+	background-color: #0b6e4f;
+}
+.metal-alcalin-li {
+	color: #0b6e4f;
+}
+
+.metal-alcalino-terreux {
+	background-color: #2e5eaa;
+}
+.metal-alcalino-terreux-li {
+	color: #2e5eaa;
+}
+
+.lanthanide {
+	background-color: #7b0828;
+}
+.lanthanide-li {
+	color: #7b0828;
+}
+
+.actinide {
+	background-color: #522b47;
+}
+.actinide-li {
+	color: #522b47;
+}
+
+.metal-transition {
+	background-color: #011627;
+}
+.metal-transition-li {
+	color: #011627;
+}
+
+.metal-post-transition {
+	background-color: #ff9f1c;
+}
+.metal-post-transition-li {
+	color: #ff9f1c;
+}
+
+.metaloide {
+	background-color: #3685b5;
+}
+.metaloide-li {
+	color: #3685b5;
+}
+
+.halogene {
+	background-color: #b89685;
+}
+.halogene-li {
+	color: #b89685;
+}
+
+.gaz-noble {
+	background-color: #6b0504;
+}
+.gaz-noble-li {
+	color: #6b0504;
+}
+
+.inconnu {
+	background-color: #2a7221;
+}
+.inconnu-li {
+	color: #2a7221;
+}
