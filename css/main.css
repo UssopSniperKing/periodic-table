@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* Titre principal */
+/* Main title */
 h1 {
 	font-family: "Staatliches", cursive;
 	font-size: 50px;
@@ -11,7 +11,7 @@ h1 {
 	text-shadow: 1px 1px 2px;
 }
 
-/* Sous-titre */
+/* Sub title */
 .birthday {
 	font-family: "Staatliches", cursive;
 	font-size: 20px;
@@ -24,7 +24,7 @@ h1 {
 	margin-bottom: 3%;
 }
 
-/* Légende */
+/* Legend */
 ul {
 	font-family: "Staatliches", cursive;
 	font-size: 23px;
@@ -41,13 +41,13 @@ li {
 	margin-left: 2%;
 }
 
-/* Couleur et police du symbole de l'élément */
-.symbole {
+/* Element's symbol */
+.symbol {
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
 }
 
-/* Définition de la classe commune au numero-atomique , electronegativite , nombre-masse */
+/* Common class of atomic-number, electronegaticity, mass-number */
 .informations {
 	position: absolute;
 	font-family: 'Open Sans', sans-serif;
@@ -55,45 +55,40 @@ li {
 	color: #FFFFFF;
 }
 
-/* Position du numéro atomique */
-.numero-atomique {
+.atomic-number {
 	top: -7px;
 	left: 5px;
 }
 
-/* Position de l'électronégativité */
-.electronegativite {
+.electronegativity {
 	top: -7px;
 	right: 5px;
 }
 
-/* Position du nombre de masse */
-.nombre-masse {
+.mass-number {
 	bottom: -7px;
 	right: 5px;
 }
 
-/* Définition de la hauteur du tableau */
-.tableau {
+.familly {
 	position: relative;
  	height: 190px;
  	left: 4.5%;
 }
 
-/* Définition d'une ligne du tableau */
-.periode {
+.period {
 	margin-left: 2%;
 	margin-top: 50px;
 	margin-right: 2%;
 	height: 15%;
 }
 
-/* Permet l'éloignement des Actninides + Lanthanides du tableau */
+/* Spacing between Actninide and Lanthanide area */
 #separation {
 	margin-top: 70px;
 }
 
-/* Définition d'un case vide, ses dimensions, son positionnement */
+/* Empty case */
 .case {
 	position: relative;
 	float: left; /* les cases s'empillent sur la gauche */
@@ -101,35 +96,35 @@ li {
 	width: 5%;
 }
 
-/* Définition de ce qui est dans la case (bordure) */
+/* Inside the case */
 .element {
 	position: relative;
 	margin-right: 5%;
 	box-sizing: border-box;
 	box-shadow: 1px 1px 3px; 
-	border: 1px solid #0000; /* bordure invisible pour donner la forme */
+	border: 1px solid #0000; /* invisible border to give the shape */
 	text-align: center;
 }
 
-/* Définition de la couleur de fond de chaque groupes */
-.autre-non-metal {
+/* Background color for each group */
+.other-non-metal {
 	background-color: #7ea16b;
 }
-.autre-non-metal-li {
+.other-non-metal-li {
 	color: #7ea16b;
 }
 
-.metal-alcalin {
+.alkali-metal {
 	background-color: #0b6e4f;
 }
-.metal-alcalin-li {
+.alkali-metal-li {
 	color: #0b6e4f;
 }
 
-.metal-alcalino-terreux {
+.alkali-earth-metal {
 	background-color: #2e5eaa;
 }
-.metal-alcalino-terreux-li {
+.alkali-earth-metal-li {
 	color: #2e5eaa;
 }
 
@@ -147,44 +142,44 @@ li {
 	color: #522b47;
 }
 
-.metal-transition {
+.transition-metal {
 	background-color: #011627;
 }
-.metal-transition-li {
+.transition-metal-li {
 	color: #011627;
 }
 
-.metal-post-transition {
+.post-transition-metal {
 	background-color: #ff9f1c;
 }
-.metal-post-transition-li {
+.post-transition-metal-li {
 	color: #ff9f1c;
 }
 
-.metaloide {
+.metaloid {
 	background-color: #3685b5;
 }
-.metaloide-li {
+.metaloid-li {
 	color: #3685b5;
 }
 
-.halogene {
+.halogen {
 	background-color: #b89685;
 }
-.halogene-li {
+.halogen-li {
 	color: #b89685;
 }
 
-.gaz-noble {
+.noble-gas {
 	background-color: #6b0504;
 }
-.gaz-noble-li {
+.noble-gas-li {
 	color: #6b0504;
 }
 
-.inconnu {
+.unknowed {
 	background-color: #2a7221;
 }
-.inconnu-li {
+.unknowed-li {
 	color: #2a7221;
 }
